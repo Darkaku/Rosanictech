@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ROSANICA TECHNOLOGY</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/footer.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                 <ul>
+                     <li><a class="h1" href="#">ROSANICA<span>TECHNOLOGY</span></a></li>
+                     <li><a class="mainu" href="index.html"> Home</a></li>
+                     <li><a  class="mainu" href="Services.html"> Services</a></li>
+		     <li><a  class="mainu" href="Blog.html">Blog</a></li>
+                     <li><a  class="mainu" href="about.html">About</a></li>
+                     <li><a  class="mainu" href="contact.html">Contact</a></li>
+	             <li><a class="search" href="#"><img src="image/search.png" style="width:26px"></a></li>
+		     
+                </ul><br>
+		
+            </nav>
+       </header>
+	<hr><br><br><br><hr><br><br><br> 
+       <main class="main">
+		<h1 class="title">ROSANICA &nbsp&nbsp&nbsp TECHNOLOGY</h1>
+		<p>We bring Technology to your door step</p><br>
+
+	<div class="slide-container" style="max-width:900px">
+  		<img class="mySlides" src="image/program.jpg" height="600" width="1400">
+		<img class="mySlides" src="image/program1.jpg" height="600" width="1400">
+		<img class="mySlides" src="image/program2.jpg" height="600" width="1400">
+  		<img class="mySlides" src="image/network.jpg" height="600" width="1400">
+		<img class="mySlides" src="image/network1.jpg" height="600" width="1400">
+  		<img class="mySlides" src="image/computerapp2.jpg" height="600" width="1400">
+		<img class="mySlides" src="image/computerapp1.jpg" height="600" width="1400">
+	</div>
+           <section>
+               
+           </section>
+       </main><br><hr class="line2">
+    
+    <footer>
+            
+        <div class="content">
+     <div class="left box">
+       <div class="upper">
+         <div class="topic">About us</div>
+         <p>Rosanic Technology is a platform that provide IT services.</p>
+       </div>
+       <div class="lower">
+         <div class="topic">Contact us</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+256 754627728</a>
+         </div>
+         <div class="email">
+           <a href="#"><i class="fas fa-envelope"></i>rosanicatech@gmail.com</a>
+         </div>
+       </div>
+     </div>
+     <div class="middle box">
+       <div class="topic">Our Services</div>
+       <div><a href="#">Web Design, Development</a></div>
+       <div><a href="#">Desktop Application Develoment</a></div>
+       <div><a href="#">Local Area Network Installation</a></div>
+	<div><a href="#">Windows and software Installation</a></div>
+     </div>
+     <div class="right box">
+       <div class="topic">Subscribe us</div>
+       <form action="#">
+         <input type="text" placeholder="Enter email address"><br>
+	<!--<textarea rows="8" cols="52" name="txt_area">
+	</textarea>-->
+         <input type="submit" name="" value="Send">
+         <div class="media-icons">
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-youtube"></i></a>
+           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+       </form>
+     </div>
+   </div>
+   <div class="bottom">
+	<p> 
+		Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made<i class="icon-heart" aria-hidden="true"></i> by <a href="#">Romario Jack</a>
+        </p>
+   </div>
+            
+    </footer>
+	<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
